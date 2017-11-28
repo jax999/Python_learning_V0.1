@@ -1,12 +1,15 @@
-numbers = [1, 2, 3]
-strings = ['Hello World']
-names = ["John", "Eric", "Jessica"]
+#First do this
+"""This script plays with numbers"""
+
+NUMBERS = [1, 2, 3]
+STRING = ['hello world']
+NAMES = ["john", "eric", "jessica"]
 
 # write your code here
-second_name = ['Eric']
+Second_name = ['eric']
 
 
 # this code should write out the filled arrays and the second name in the names list (Eric).
-print(numbers)
-print(strings)
-print("The second name on the names list is %s" % second_name)
+print(NUMBERS)
+print(STRING)
+print("The second name on the names list is %s" % Second_name)
