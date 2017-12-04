@@ -6,6 +6,7 @@ STRING = ['hello world']
 NAMES = ["john", "eric", "jessica"]
 
 # write your code here
+
 SECOND_NAME = ['eric']
 
 
