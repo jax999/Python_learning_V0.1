@@ -4,7 +4,7 @@ print('\n')
 print('Godmorning! \n')
 
 print('Quote for today?')  # Quote variable
-Quote = input()('\n')
+Quote = input()
 
 # Printing what is in input
 print('Todays quote is '+Quote)
