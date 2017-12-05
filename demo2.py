@@ -3,7 +3,7 @@
 print('\n')
 print('Godmorning! \n')
 
-print('Quote for today?')  # Quote variable
+print('Quote for today?\n')  # Quote variable
 Quote = input()
 
 # Printing what is in input
