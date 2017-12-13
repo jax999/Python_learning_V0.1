@@ -1,8 +1,15 @@
 #Ask for age and how far you want to calculate
-"""Stuff"""
-print('What is your age?')
-myage = input('Ange ålder\n')
+"""Stuff""" #Docline
+
+# Syntax for age and age ahead
+print('What is your age?\n\n')
+myage = input('Input age\n')
 myage = int(myage)
-years = input('Ange hur långt den ska räkna\n')
+
+# syntax for calculation
+years = input('Input how many years ahead you want it to calculate\n')
 years = int(years)
-print(myage + years)
+
+# Prints sum of syntax 3 och 7
+print('\n')
+print("You will be ", myage + years, "old")
