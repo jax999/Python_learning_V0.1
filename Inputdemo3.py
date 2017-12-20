@@ -2,19 +2,13 @@
 """Stuff""" #Docline
 
 # Syntax for age and age ahead
-    print('What is your age?\n')
-    myage = input('Input age\n')
-    myage = int(myage)
-    if myage == 40:
-        print ('not likely')
-        continue        
+print('What is your age?\n\n')
+MYAGE = input('Input age\n')
+MYAGE = int(MYAGE)
 # syntax for calculation
-years = input('Input how many years ahead you want it to calculate\n')
-years = int(years)
-
-
-    
+YEARS = input('Input how many years ahead you want it to calculate\n')
+YEARS = int(YEARS)
 
 # Prints sum of syntax 3 och 7
 print('\n')
-print("You will be ", myage + years, "years old")
+print("You will be", MYAGE + YEARS, "years old")
