@@ -9,6 +9,10 @@ MYAGE = int(MYAGE)
 YEARS = input('Input how many years ahead you want it to calculate\n')
 YEARS = int(YEARS)
 
-# Prints sum of syntax 3 och 7
-print('\n')
-print("You will be", MYAGE + YEARS, "years old")
+if  MYAGE < 40:
+    print("Still Youngster")
+else:
+# Prints sum of syntax 7 och 10
+    print('\n')
+    print('You will be', MYAGE + YEARS, 'years old','and matured')
+    print('\n')
